@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Sign Up</h1>
+    <form id="signupForm" action="auth.php" method="POST">
+        <div class="form-group">
+            <label for="signupUsername">Username:</label>
+            <input type="text" id="signupUsername" name="username" required>
+        </div>
+        <div class="form-group">
+            <label for="signupPassword">Password:</label>
+            <input type="password" id="signupPassword" name="password" required>
+        </div>
+        <button type="submit" name="signup">Sign Up</button>
+    </form>
+
+    <p>Already have an account? <a href="login.html">Log in</a></p>
+</body>
+</html>

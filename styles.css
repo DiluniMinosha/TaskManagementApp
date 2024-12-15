@@ -1,0 +1,44 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.delete-btn {
+    background-color: #f44336;
+}
+
+.delete-btn:hover {
+    background-color: #e53935;
+}
+
+.completed-task {
+    text-decoration: line-through;
+    background-color: #d3ffd3;
+}
